@@ -11,3 +11,9 @@ android_library(
     manifest = "AndroidManifest.xml",
     resource_files = glob(["res/**"]),
 )
+
+maven_jar(
+    name = "dagger",
+    artifact = "com.google.dagger:dagger:2.41",
+    sha1 = "7e97c67d31bc400683803121a4aa91b1e001006f",
+)
